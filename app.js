@@ -230,11 +230,7 @@
         badge: '🌀 Control & Soporte',
         avatar: 'Gohan070.jpeg',
         avatarCandidates: [
-          'img/LOGO GOHAN.png',
-          'media_1794588758056_dc967074.jpg',
-          'file:///C:/Users/adria/.gemini/antigravity/brain/e4a4a765-a05d-483e-9896-d185396d593a/.user_uploaded/media_1794588758056_dc967074.jpg',
-          '../../.gemini/antigravity/brain/e4a4a765-a05d-483e-9896-d185396d593a/.user_uploaded/media_1794588758056_dc967074.jpg',
-          '../../../.gemini/antigravity/brain/e4a4a765-a05d-483e-9896-d185396d593a/.user_uploaded/media_1794588758056_dc967074.jpg'
+          'img/LOGO GOHAN.png'
         ],
         fallbackAvatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=80',
         description: 'Pilar táctico del equipo. Combina el Control de zonas con utilidades vitales de Apoyo a los compañeros y capacidad de castigo a larga distancia como Tirador de élite.',
@@ -252,11 +248,7 @@
         badge: '💥 Resistencia & Daño',
         avatar: 'DSR.jpeg',
         avatarCandidates: [
-          'img/LOGO DSR.png',
-          'media_1794588757995_b2b5ee62.jpg',
-          'file:///C:/Users/adria/.gemini/antigravity/brain/e4a4a765-a05d-483e-9896-d185396d593a/.user_uploaded/media_1794588757995_b2b5ee62.jpg',
-          '../../.gemini/antigravity/brain/e4a4a765-a05d-483e-9896-d185396d593a/.user_uploaded/media_1794588757995_b2b5ee62.jpg',
-          '../../../.gemini/antigravity/brain/e4a4a765-a05d-483e-9896-d185396d593a/.user_uploaded/media_1794588757995_b2b5ee62.jpg'
+          'img/LOGO DSR.png'
         ],
         fallbackAvatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80',
         description: 'Potencia pesada y versatilidad. Actúa como Destructor/Tanque rompiendo formaciones enemigas, garantizando el Control de mapa y aportando gran daño a distancia como Tirador de élite.',
@@ -274,11 +266,7 @@
         badge: '🦆 Nueva Incorporación',
         avatar: 'Patoduck1999.jpeg',
         avatarCandidates: [
-          'img/LOGO PATODUCK.png',
-          'media_1794588757926_a220b0de.jpg',
-          'file:///C:/Users/adria/.gemini/antigravity/brain/e4a4a765-a05d-483e-9896-d185396d593a/.user_uploaded/media_1794588757926_a220b0de.jpg',
-          '../../.gemini/antigravity/brain/e4a4a765-a05d-483e-9896-d185396d593a/.user_uploaded/media_1794588757926_a220b0de.jpg',
-          '../../../.gemini/antigravity/brain/e4a4a765-a05d-483e-9896-d185396d593a/.user_uploaded/media_1794588757926_a220b0de.jpg'
+          'img/LOGO PATODUCK.png'
         ],
         fallbackAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80',
         description: 'Incorporación clave para la rotación competitiva. Aporta solidez en el Control de objetivos, fuego de precisión como Tirador de élite y sinergias protectoras de Apoyo.',
@@ -296,11 +284,7 @@
         badge: '💚 Soporte de Plantilla',
         avatar: 'Osky.jpeg',
         avatarCandidates: [
-          'img/LOGO OSKY.png',
-          'media_1794588757870_c88d8454.jpg',
-          'file:///C:/Users/adria/.gemini/antigravity/brain/e4a4a765-a05d-483e-9896-d185396d593a/.user_uploaded/media_1794588757870_c88d8454.jpg',
-          '../../.gemini/antigravity/brain/e4a4a765-a05d-483e-9896-d185396d593a/.user_uploaded/media_1794588757870_c88d8454.jpg',
-          '../../../.gemini/antigravity/brain/e4a4a765-a05d-483e-9896-d185396d593a/.user_uploaded/media_1794588757870_c88d8454.jpg'
+          'img/LOGO OSKY.png'
         ],
         fallbackAvatar: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=600&q=80',
         description: 'Jugador de apoyo táctico y control de ritmo. Aporta utilidades de contención, curación y cobertura a los flancos con gran versatilidad.',
