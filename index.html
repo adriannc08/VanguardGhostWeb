@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>VANGUARD GHOST TEAM | Official Brawl Stars Pro Team</title>
+  <title>VANGUARD GHOST (VG) | Equipo Profesional de Brawl Stars</title>
   
-  <!-- Meta / Social Sharing -->
-  <meta name="description" content="Official portal of Zenith Esports, EMEA #1 Brawl Stars Professional Team competing in the Brawl Stars Championship (BSC). Roster details, match results, and team announcements." />
-  <meta name="theme-color" content="#0a0d16" />
+  <meta name="description" content="Portal oficial de Vanguard Ghost (VG), equipo profesional de Brawl Stars en España. Conoce a nuestra directiva y plantilla completa." />
+  <meta name="theme-color" content="#090c15" />
 
-  <!-- Google Fonts: Lilita One (Brawl Stars style), Russo One, Montserrat -->
+  <!-- Fuentes de Google: Lilita One, Russo One, Montserrat -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Russo+One&display=swap" rel="stylesheet" />
 
-  <!-- FontAwesome 6 Icons -->
+  <!-- Iconos FontAwesome 6 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- Tailwind CSS CDN -->
@@ -25,16 +24,12 @@
       theme: {
         extend: {
           colors: {
-            brawl: {
+            ghost: {
               cyan: '#00f0ff',
+              purple: '#a855f7',
               gold: '#ffc400',
-              amber: '#ff9100',
-              pink: '#ff2a6d',
-              purple: '#9d4edd',
-              green: '#00e676',
-              dark: '#0a0d16',
-              darker: '#06090f',
-              card: '#111625'
+              dark: '#090c15',
+              card: '#101626'
             }
           }
         }
@@ -42,171 +37,102 @@
     };
   </script>
 
-  <!-- Custom Stylesheet -->
+  <!-- Hoja de Estilos Personalizada -->
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body class="flex flex-col min-h-screen">
 
-  <!-- Top Announcement Bar -->
-  <div class="bg-gradient-to-r from-amber-500 via-pink-600 to-cyan-500 py-1.5 px-4 text-center text-xs font-bold text-slate-950 uppercase tracking-widest shadow-md">
+  <!-- Barra Superior de Identidad -->
+  <div class="bg-gradient-to-r from-cyan-600 via-purple-600 to-cyan-500 py-1 px-4 text-center text-xs font-bold text-slate-950 uppercase tracking-widest shadow-md">
     <div class="container mx-auto flex items-center justify-center gap-2">
-      <span class="animate-bounce">🏆</span>
-      <span>EMEA AUTUMN CHAMPIONS • DIRECT TICKET TO BRAWL STARS WORLD FINALS HELSINKI</span>
-      <span class="hidden sm:inline">• USE CODE: <strong class="bg-slate-950 text-amber-300 px-1.5 py-0.5 rounded text-[10px]">ZENITH</strong></span>
+      <span>🇪🇸 VANGUARD GHOST (VG) • EQUIPO PROFESIONAL DE BRAWL STARS • ESPAÑA</span>
     </div>
   </div>
 
-  <!-- Primary Navigation Header -->
-  <header class="sticky top-0 z-40 bg-[#0a0d16]/90 backdrop-blur-md border-b border-slate-800/80 transition-all">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <!-- Cabecera de Navegación Principal -->
+  <header class="sticky top-0 z-40 bg-[#090c15]/90 backdrop-blur-md border-b border-slate-800 transition-all">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-20">
         
-        <!-- Team Brand / Logo -->
-        <a href="#home" onclick="window.app.switchTab('home')" class="flex items-center gap-3.5 group">
-          <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-cyan-400 via-blue-600 to-purple-600 p-0.5 shadow-neon-cyan transform group-hover:scale-105 transition duration-300">
-            <div class="w-full h-full bg-[#0a0d16] rounded-[14px] flex items-center justify-center">
-              <span class="font-brawl text-2xl text-gradient-gold">Z</span>
+        <!-- Logo y Nombre del Club -->
+        <a href="#home" onclick="window.app.switchTab('home')" class="flex items-center gap-3 group">
+          <div class="w-11 h-11 rounded-2xl bg-gradient-to-br from-cyan-400 via-purple-500 to-cyan-600 p-0.5 shadow-cyan transform group-hover:scale-105 transition duration-300">
+            <div class="w-full h-full bg-[#090c15] rounded-[14px] flex items-center justify-center">
+              <span class="font-brawl text-2xl text-gradient-cyan">VG</span>
             </div>
           </div>
           <div>
             <div class="flex items-center gap-2">
-              <span class="font-brawl text-2xl tracking-wider text-white group-hover:text-cyan-300 transition">ZENITH</span>
-              <span class="px-2 py-0.5 rounded text-[10px] font-extrabold bg-cyan-500/20 text-cyan-300 border border-cyan-400/30 uppercase">PRO</span>
+              <span class="font-brawl text-2xl tracking-wider text-white group-hover:text-cyan-300 transition">VANGUARD GHOST</span>
             </div>
-            <div class="text-[11px] font-tech text-slate-400 tracking-widest uppercase">Brawl Stars Division</div>
+            <div class="text-[10px] font-tech text-purple-400 tracking-widest uppercase">Brawl Stars Team • España 🇪🇸</div>
           </div>
         </a>
 
-        <!-- Desktop Navigation Items -->
-        <nav class="hidden md:flex items-center gap-2 bg-slate-900/60 p-1.5 rounded-2xl border border-slate-800">
-          <button id="nav-btn-home" onclick="window.app.switchTab('home')" class="px-4 py-2 rounded-xl text-sm font-brawl uppercase tracking-wider text-cyan-300 bg-cyan-500/20 border border-cyan-400/40 shadow-neon-cyan">
-            <i class="fa-solid fa-house mr-1.5"></i> Home
+        <!-- Menú de Navegación (Solo Inicio y Equipo) -->
+        <nav class="hidden sm:flex items-center gap-2 bg-slate-900/70 p-1.5 rounded-2xl border border-slate-800">
+          <button id="nav-btn-home" onclick="window.app.switchTab('home')" class="px-5 py-2 rounded-xl text-sm font-brawl uppercase tracking-wider text-cyan-300 bg-cyan-500/20 border border-cyan-400/40 shadow-cyan">
+            <i class="fa-solid fa-house mr-1.5"></i> Inicio
           </button>
-          <button id="nav-btn-team" onclick="window.app.switchTab('team')" class="px-4 py-2 rounded-xl text-sm font-brawl uppercase tracking-wider text-slate-300 hover:text-white hover:bg-slate-800/80 transition">
-            <i class="fa-solid fa-users mr-1.5"></i> Team Roster
-          </button>
-          <button id="nav-btn-league" onclick="window.app.switchTab('league')" class="px-4 py-2 rounded-xl text-sm font-brawl uppercase tracking-wider text-slate-300 hover:text-white hover:bg-slate-800/80 transition">
-            <i class="fa-solid fa-trophy mr-1.5"></i> League Results
-          </button>
-          <button id="nav-btn-news" onclick="window.app.switchTab('news')" class="px-4 py-2 rounded-xl text-sm font-brawl uppercase tracking-wider text-slate-300 hover:text-white hover:bg-slate-800/80 transition">
-            <i class="fa-solid fa-newspaper mr-1.5"></i> Newsroom
+          <button id="nav-btn-team" onclick="window.app.switchTab('team')" class="px-5 py-2 rounded-xl text-sm font-brawl uppercase tracking-wider text-slate-300 hover:text-white hover:bg-slate-800 transition">
+            <i class="fa-solid fa-users mr-1.5"></i> Equipo
           </button>
         </nav>
 
-        <!-- Right Header Actions -->
+        <!-- Botón de Audio y Enlace Directo -->
         <div class="flex items-center gap-3">
-          <!-- Audio Toggle Button -->
-          <button id="audio-toggle-btn" onclick="window.app.toggleAudio()" class="w-10 h-10 rounded-xl bg-slate-900 border border-slate-800 hover:border-cyan-400/50 flex items-center justify-center transition" title="Toggle Sound FX">
+          <button id="audio-toggle-btn" onclick="window.app.toggleAudio()" class="w-10 h-10 rounded-xl bg-slate-900 border border-slate-800 hover:border-cyan-400/50 flex items-center justify-center transition" title="Activar/Silenciar Efectos de Sonido">
             <i class="fa-solid fa-volume-high text-cyan-400"></i>
           </button>
 
-          <!-- Quick Action: Record Result / Publish -->
-          <div class="hidden sm:flex items-center gap-2">
-            <button onclick="window.app.switchTab('league'); setTimeout(() => window.app.openAddMatchModal(), 100);" class="btn-brawl btn-brawl-gold text-xs py-2 px-3.5">
-              <i class="fa-solid fa-plus"></i> Add Match
-            </button>
-            <button onclick="window.app.switchTab('news'); setTimeout(() => window.app.openPublishModal(), 100);" class="btn-brawl btn-brawl-cyan text-xs py-2 px-3.5">
-              <i class="fa-solid fa-pen-to-square"></i> Post News
-            </button>
-          </div>
+          <button onclick="window.app.switchTab('team')" class="hidden md:inline-flex btn-vg btn-vg-purple text-xs py-2 px-4">
+            <i class="fa-solid fa-shield mr-1"></i> Ver Plantilla
+          </button>
         </div>
 
       </div>
     </div>
   </header>
 
-  <!-- Main View Container (Populated by app.js) -->
-  <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8" id="main-content">
-    <!-- Rendered via JavaScript -->
+  <!-- Contenedor Principal (Renderizado por JavaScript) -->
+  <main class="flex-grow max-w-6xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8" id="main-content">
+    <!-- Contenido inyectado dinámicamente -->
   </main>
 
-  <!-- Mobile Bottom Navigation Bar -->
-  <div class="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-[#0a0d16]/95 backdrop-blur-lg border-t border-slate-800 p-2">
-    <div class="grid grid-cols-4 gap-1">
-      <button id="nav-mobile-home" onclick="window.app.switchTab('home')" class="py-2 px-2 text-center text-xs font-brawl uppercase text-cyan-300 bg-cyan-950/60 rounded-xl border border-cyan-400/40">
-        <i class="fa-solid fa-house block text-sm mb-0.5"></i> Home
+  <!-- Barra Móvil Inferior -->
+  <div class="sm:hidden fixed bottom-0 left-0 right-0 z-40 bg-[#090c15]/95 backdrop-blur-lg border-t border-slate-800 p-2">
+    <div class="grid grid-cols-2 gap-2">
+      <button id="nav-mobile-home" onclick="window.app.switchTab('home')" class="py-2.5 px-2 text-center text-xs font-brawl uppercase text-cyan-300 bg-cyan-950/60 rounded-xl border border-cyan-400/40">
+        <i class="fa-solid fa-house block text-sm mb-0.5"></i> Inicio
       </button>
-      <button id="nav-mobile-team" onclick="window.app.switchTab('team')" class="py-2 px-2 text-center text-xs font-brawl uppercase text-slate-400 hover:text-white">
-        <i class="fa-solid fa-users block text-sm mb-0.5"></i> Team
-      </button>
-      <button id="nav-mobile-league" onclick="window.app.switchTab('league')" class="py-2 px-2 text-center text-xs font-brawl uppercase text-slate-400 hover:text-white">
-        <i class="fa-solid fa-trophy block text-sm mb-0.5"></i> League
-      </button>
-      <button id="nav-mobile-news" onclick="window.app.switchTab('news')" class="py-2 px-2 text-center text-xs font-brawl uppercase text-slate-400 hover:text-white">
-        <i class="fa-solid fa-newspaper block text-sm mb-0.5"></i> News
+      <button id="nav-mobile-team" onclick="window.app.switchTab('team')" class="py-2.5 px-2 text-center text-xs font-brawl uppercase text-slate-400 hover:text-white">
+        <i class="fa-solid fa-users block text-sm mb-0.5"></i> Equipo
       </button>
     </div>
   </div>
 
-  <!-- Global Modals Container -->
-  <div id="modals-container"></div>
+  <!-- Contenedor para Modales -->
+  <div id="modal-container"></div>
 
-  <!-- Professional Esports Footer -->
-  <footer class="bg-[#070a12] border-t border-slate-800/80 pt-12 pb-24 md:pb-12 text-slate-400 text-sm">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
-        
-        <!-- Brand Info -->
-        <div class="space-y-4 md:col-span-1">
-          <div class="flex items-center gap-3">
-            <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-400 to-purple-600 p-0.5">
-              <div class="w-full h-full bg-[#0a0d16] rounded-[10px] flex items-center justify-center">
-                <span class="font-brawl text-xl text-gradient-gold">Z</span>
-              </div>
-            </div>
-            <span class="font-brawl text-xl text-white">VANGUARD GHOST</span>
-          </div>
-          <p class="text-xs text-slate-400 leading-relaxed">
-            The championship-winning Brawl Stars professional franchise. Relentless tactical preparation, pinpoint mechanical execution, and unwavering passion for competition.
-          </p>
-          <div class="flex items-center gap-3 text-slate-300">
-            <a href="https://twitter.com" target="_blank" class="w-8 h-8 rounded-lg bg-slate-900 hover:bg-cyan-500 hover:text-slate-950 flex items-center justify-center transition"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="https://discord.com" target="_blank" class="w-8 h-8 rounded-lg bg-slate-900 hover:bg-indigo-500 hover:text-white flex items-center justify-center transition"><i class="fa-brands fa-discord"></i></a>
-            <a href="https://youtube.com" target="_blank" class="w-8 h-8 rounded-lg bg-slate-900 hover:bg-rose-500 hover:text-white flex items-center justify-center transition"><i class="fa-brands fa-youtube"></i></a>
-            <a href="https://twitch.tv" target="_blank" class="w-8 h-8 rounded-lg bg-slate-900 hover:bg-purple-500 hover:text-white flex items-center justify-center transition"><i class="fa-brands fa-twitch"></i></a>
-          </div>
-        </div>
-
-        <!-- Quick Links -->
-        <div class="space-y-3">
-          <h4 class="font-tech text-white text-xs uppercase tracking-wider">Navigation</h4>
-          <ul class="space-y-2 text-xs">
-            <li><a href="#home" onclick="window.app.switchTab('home')" class="hover:text-cyan-400 transition">Team Overview & Highlights</a></li>
-            <li><a href="#team" onclick="window.app.switchTab('team')" class="hover:text-cyan-400 transition">Executive Board & CEO</a></li>
-            <li><a href="#team" onclick="window.app.switchTab('team')" class="hover:text-cyan-400 transition">Head Coach & Drafter</a></li>
-            <li><a href="#team" onclick="window.app.switchTab('team')" class="hover:text-cyan-400 transition">Active Pro Player Roster</a></li>
-            <li><a href="#league" onclick="window.app.switchTab('league')" class="hover:text-cyan-400 transition">League Matches & Results Log</a></li>
-            <li><a href="#news" onclick="window.app.switchTab('news')" class="hover:text-cyan-400 transition">Signings, Titles & Departures</a></li>
-          </ul>
-        </div>
-
-        <!-- BSC Division & Facilities -->
-        <div class="space-y-3">
-          <h4 class="font-tech text-white text-xs uppercase tracking-wider">Headquarters & Facilities</h4>
-          <div class="space-y-2 text-xs text-slate-400">
-            <div><strong class="text-slate-300">HQ:</strong> Birger Jarlsgatan, Stockholm, Sweden</div>
-            <div><strong class="text-slate-300">Bootcamp Facility:</strong> Mitte Esports Hub, Berlin, Germany</div>
-            <div><strong class="text-slate-300">Nordic Operations:</strong> Ruoholahti, Helsinki, Finland</div>
-            <div><strong class="text-slate-300">Contact:</strong> management@zenithesports.gg</div>
-          </div>
-        </div>
-
-        <!-- Supercell & Esports Policy -->
-        <div class="space-y-3">
-          <h4 class="font-tech text-white text-xs uppercase tracking-wider">Fan & Game Disclaimer</h4>
-          <p class="text-[11px] text-slate-500 leading-relaxed">
-            This material is unofficial and is not endorsed by Supercell. For more information see Supercell's Fan Content Policy: <a href="https://supercell.com/en/fan-content-policy/" target="_blank" class="text-cyan-400 underline">supercell.com/en/fan-content-policy</a>. Brawl Stars is a trademark of Supercell Oy.
-          </p>
-          <div class="pt-2 text-[11px] text-slate-500">
-            Zenith Esports © 2026. All rights reserved.
-          </div>
-        </div>
-
+  <!-- Pie de Página -->
+  <footer class="bg-[#06080e] border-t border-slate-800/80 pt-8 pb-20 sm:pb-8 text-slate-400 text-xs">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-3">
+      <div class="flex items-center justify-center gap-2">
+        <span class="font-brawl text-lg text-white">VANGUARD GHOST (VG)</span>
+        <span class="text-slate-600">•</span>
+        <span class="text-cyan-400 font-semibold">España 🇪🇸</span>
+      </div>
+      <p class="text-slate-400 max-w-md mx-auto">
+        Club competitivo de Brawl Stars. CEO: Gin • Main Drafter: VG|Obri11.
+      </p>
+      <div class="text-[11px] text-slate-500 pt-1">
+        Vanguard Ghost © 2026. Todos los derechos reservados. Brawl Stars es una marca registrada de Supercell Oy.
       </div>
     </div>
   </footer>
 
-  <!-- Application Script -->
+  <!-- Lógica de la Aplicación y Estadísticas Oficiales Brawl Stars -->
   <script src="app.js"></script>
+  <script src="brawl-stats.js"></script>
 </body>
 </html>
